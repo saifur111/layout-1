@@ -1,0 +1,770 @@
+/*----------Google fonts---------------*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,600;0,700;1,400&family=Open+Sans:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+/*----------default CSS --------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: 'Nunito', sans-serif;*/
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 1300px;
+    min-height: 80px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.container:before,
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col-25 {
+    width: 25%;
+    padding: 0 15px;
+    float: left;
+}
+
+.col-75 {
+    width: 75%;
+    padding: 0 15px;
+    float: left;
+}
+
+.col-33 {
+    width: 33.33%;
+    padding: 0 15px;
+    float: left;
+}
+
+.col-50 {
+    width: 50%;
+    padding: 0 15px;
+    float: left;
+}
+
+.col-60 {
+    width: 60%;
+    padding: 0 15px;
+    float: left;
+}
+
+.col-45 {
+    width: 45%;
+    padding: 0 15px;
+    float: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.h-col-l {
+    padding: 0px 80px;
+}
+
+.section-padding-top {
+    padding-top: 100px;
+}
+
+.section-padding-bottom {
+    padding-bottom: 100px;
+}
+
+/*-------------0.1Header CSS ------------*/
+header {
+    color: white;
+    background-color: #84c0c4;
+}
+
+.logo,
+img {
+    width: 136px;
+    max-height: 86px;
+}
+
+.logo a {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-menu {
+    float: right;
+    padding: 25px 0;
+}
+
+.main-menu ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+.main-menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.main-menu > ul > li > a {
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    height: 100%;
+    padding: 0 20px;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 700;
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+
+.main-menu ul li a:hover {
+    color: #fdcf71;
+}
+
+.main-menu .se-ba:hover {
+    color: #FFFFFF;
+}
+
+.main-menu ul li:last-child a:hover {
+    color: #FFFFFF;
+}
+
+
+/*-------02.Home CSS--------------*/
+.home {
+    background: url(images/h1-slide-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: -90px;
+
+}
+
+.home-container {
+    padding: 100px 0px;
+    height: 100vh;
+}
+
+
+.home-container h1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 90px;
+    color: #7ECCC5;
+    line-height: 100px;
+    font-weight: 700;
+
+}
+
+.home-container h6 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color: #555555;
+    font-weight: 300;
+    padding: 50px 0;
+    line-height: 30px;
+}
+
+.btn {
+    display: inline-flex;
+}
+
+.btn a {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 20px 55px;
+    background-color: #FED872;
+    display: inline-block;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.btn a:hover {
+    color: #fff;
+    background-color: #85CCC5;
+    transition: .3s;
+}
+
+/*-------------03.Category box CSS ------------*/
+.box:hover {
+    opacity: 1;
+}
+
+.box-1 {
+    background: url(images/h1-box-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 110px 20px 30px;
+}
+
+.box-2 {
+    background: url(images/h1-box-2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 110px 20px 30px;
+}
+
+.box-3 {
+    background: url(images/h1-box-3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 110px 20px 30px;
+}
+
+.box h3 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 54px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.box p {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Nunito', serif;
+    color: #FFFFFF;
+}
+
+/*-------------04.Category Item CSS ------------*/
+section.catagory-all-item.section-padding-bottom {
+    padding-bottom: 50px;
+}
+
+.catagory-title {
+    display: inline-flex;
+    padding: 0 0 40px 0;
+}
+
+.catagory-title img {
+    float: left;
+    width: 64px;
+    height: 64px;
+}
+
+.catagory-item-1 p {
+    font-family: 'Open Sans', sans-serif;
+    clear: both;
+    font-size: 15px;
+    color: #888888;
+    line-height: 26px;
+}
+
+.catagory-title h4 {
+    font-size: 25px;
+    color: #434343;
+    line-height: 30px;
+    padding: 35px 0 0 10px
+}
+
+.col-p-0 .col-33 {
+    padding: 0;
+}
+
+section.atagorcy-all-box {
+    margin-top: -80px;
+}
+
+.catagory-itemi-1 p {
+    clear: both;
+}
+
+.catagory-item-1 {
+    padding: 0 80px 68px 0;
+}
+
+/*-------------05.Learning CSS ------------*/
+.learning {
+    background: url(images/h1-kids.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.learning .col-50 {
+    float: right;
+}
+
+.lr-h-w {
+    width: 472px;
+    height: 494px;
+    margin-right: 50px;
+}
+
+.learning-box {
+    background: #FCCE71;
+    padding: 68px 40px;
+}
+
+.learning-box h3 {
+    font-size: 54px;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+
+}
+
+.learning-box p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: #313131;
+    padding: 1px 0;
+}
+
+.learning-box .btn {
+    padding-top: 40px;
+}
+
+.learning-box .btn a {
+    background: #fff;
+    color: #212121;
+}
+
+.learning-box .btn a:hover {
+    background: #212121;
+    color: white;
+}
+
+/*-------------06.Events CSS ------------*/
+
+.events {}
+
+.section-heading {
+    text-align: center;
+}
+
+.section-heading h1 {
+    color: #434343;
+    font-size: 47px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.section-heading h6 {
+    padding: 30px 0 50px 0;
+    color: #888888;
+    font-size: 18px;
+    line-height: 33px;
+}
+
+.e-bg {
+    height: 250px;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.e-bg img {
+    min-height: 250px;
+    width: 100%;
+    transition: all ease .5s;
+}
+
+.e-bg:hover img {
+    transform: scale(1.1);
+    transition: all ease .5s;
+}
+
+.e-bg:hover .date {
+    background: #212121;
+    transition: all ease .5s;
+    color: #fff;
+}
+
+.e-bg .date {
+    background-color: #FCCE71;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: #fff;
+}
+
+.event-box h4 {
+    font-size: 25px;
+    line-height: 35px;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #dadada;
+    color: #434343;
+
+}
+
+.event-box li {
+    color: gray;
+    line-height: 30px;
+    list-style: none;
+
+}
+
+/*-------------------------07. Video Css starts-----------------------------*/
+.video-part {
+    background: url("images/video-birds.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px;
+}
+
+.video-part .left {
+    position: relative;
+}
+
+.video-part .box .right {
+    padding: 20px;
+}
+
+.video-part .box {
+    padding: 25px 30px;
+}
+
+.video-part .box-bg {
+    width: 100%;
+}
+
+.video-part .box-icon {
+    width: 58px;
+    height: 80px;
+    display: inline-block;
+    position: absolute;
+    left: 49%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.video-part .box h1 {
+    font-family: "Nunito-bold";
+    font-size: 45px;
+    line-height: 45px;
+    color: #434343;
+}
+
+.video-part .box p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #888888;
+    font-family: "OpenSans-regular";
+
+}
+
+.video-part .box-details {
+    margin: 30px 0px;
+    padding-right: 50px;
+}
+
+.video-part .box-h_light {
+    display: inline-block;
+    width: 40%;
+}
+
+.video-part .box-count {
+    font-size: 48px;
+    line-height: 48px;
+    color: #f8cb6e;
+    font-family: "Nunito-bold";
+
+}
+
+/*-------------------- Video Css ends--------------------- */
+/*-----------------------08. Cousrse Css starts.---------------------------*/
+.course-heading {
+    text-align: center;
+    width: 70%;
+    margin: 0px auto 100px;
+}
+
+.course-heading h1 {
+    font-family: "Nunito-bold";
+    font-size: 47px;
+    line-height: 55px;
+    color: #434343;
+    margin: 25px 0px;
+}
+
+.course-heading p {
+    font-family: "OpenSans-regular";
+    font-size: 18px;
+    line-height: 33px;
+    color: #888888;
+}
+
+.all-course .col-33 {
+    padding: 20px;
+}
+
+.all-course .box {
+    border: 1px solid #43434330;
+
+}
+
+.all-course .box-img img {
+    width: 100%;
+    min-height: 218px;
+}
+
+.all-course .box-details {
+    padding: 25px;
+    position: relative;
+}
+
+.all-course .box-details h1 {
+    font-family: "Nunito-bold";
+    font-size: 25px;
+    line-height: 35px;
+    color: #434343;
+    display: inline-block;
+}
+
+.all-course .box-details span {
+    font-family: "OpenSans-bold";
+    font-size: 13px;
+    line-height: 26px;
+    color: white;
+    background-color: #f8cb6e;
+    padding: 5px 10px;
+    position: absolute;
+    right: 20px;
+}
+
+.all-course .box-details h6 {
+    font-family: "OpenSans-regular";
+    font-size: 14px;
+    line-height: 26px;
+    color: #b9b9b9;
+}
+
+.all-course .box-details p {
+    font-family: "OpenSans-regular";
+    font-size: 15px;
+    line-height: 25px;
+    color: #888888;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+
+.all-course .box-bottom ul li {
+    display: inline-block;
+    font-family: "OpenSans-regular";
+    border-top: 1px solid #43434330;
+    padding: 15px 25px;
+    color: #888888;
+}
+
+.all-course .box-bottom i {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.all-course .box-bottom ul li:first-child {
+    margin-right: 15px;
+}
+
+/*-----------Cousrse Css ends---------------*/
+/*-------------09. Form Css starts--------------------*/
+.form {
+    background: url("../images/footer-image.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-bottom: 200px;
+    margin-bottom: 0px;
+}
+
+.form .admission__heading {
+    text-align: center;
+    margin: 100px auto;
+}
+
+.form .admission__heading h1 {
+    color: #434343;
+    font-family: "Nunito-bold";
+    font-size: 40px;
+    line-height: 55px;
+    margin: 25px 0px;
+}
+
+.form .admission__heading input {
+    font-family: "OpenSans-regular";
+    padding: 20px 70px;
+    border: 1px solid #43434325;
+    margin-right: 20px;
+    font-size: 14px;
+    color: #434343;
+}
+
+/*-------------------Form Css ends.---------------------*/
+/*------------------ 10.Details Css starts.------------*/
+.all-details {
+    background: url("images/footer.jpg");
+    margin-bottom: 0;
+    padding-bottom: 30px;
+}
+
+.all-details .add {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.all-details .add-heading {
+    font-family: "Nunito-bold";
+    font-size: 20px;
+    line-height: 30px;
+    color: #313131;
+    padding-top: 100px;
+    margin-bottom: 20px;
+}
+
+.all-details .add-para {
+    font-family: "OpenSans-regular";
+    font-size: 15px;
+    line-height: 25px;
+    color: #888888;
+    margin-bottom: 20px;
+}
+
+.all-details .add-details {
+    font-family: "OpenSans-regular";
+    font-size: 14px;
+    line-height: 25px;
+    color: #313131;
+    display: block;
+}
+
+.all-details .add-details i {
+    margin: 10px 20px 10px 0px;
+}
+
+.all-details .add-topic {
+    font-family: "OpenSans-regular";
+    font-size: 15px;
+    line-height: 20px;
+    color: #313131;
+}
+
+.all-details .add-topic--margin {
+    margin-bottom: 20px;
+}
+
+.all-details .add-writer {
+    font-family: "OpenSans-regular";
+    font-size: 13px;
+    color: #888888;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.all-details .add-img {
+    width: 100%;
+    min-height: 180px;
+}
+
+/*------------------Details Css Ends.--------------------*/
+/*------------------11. Footer Css starts.----------------------*/
+footer {
+    background-color: #F2F1ED;
+    padding-bottom: 30px;
+}
+
+footer .container {
+    border-top: 1px solid rgba(0, 0, 0, 0.103);
+    padding-top: 30px;
+}
+
+footer .copyright p {
+    font-family: "OpenSans-regular";
+    color: #555555;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+footer .copyright span {
+    color: #313131;
+}
+
+footer .social {
+    float: right;
+}
+
+footer .s-link {
+    line-height: 25px;
+    color: #313131;
+    margin-left: 20px;
+    font-family: "OpenSans-regular";
+    font-size: 12px;
+
+}
+
+footer .s-link--color {
+    color: #555555;
+}
+
+footer .s-link .fab {
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+footer .s-link .fa-twitter {
+    color: #55acef;
+}
+
+footer .s-link .fa-facebook-f {
+    color: #3b5999;
+}
+
+footer .social__link .fa-google-plus-g {
+    color: #dd4c39;
+}
+
+footer .s-link .fa-instagram {
+    color: #e44160;
+}
+
+/*--------------------Footer Css ends.--------------------*/
